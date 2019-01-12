@@ -121,23 +121,25 @@ class LinkedList {
 			j++;
 			current1= current1->next;
 		}
+		//if the position is greater than the total elements
 		if(j<pos){
 			cout<<"Linked List does not have that many elements"<<endl;
 		}
-		else{
+		else{	//updating for the 1st position
 			if (pos==1){
 		        temp = current->next;
 		        current->next = NULL;
 				head = temp;	
 			}
 			else{
-				
+				//updating for 2nd position
 				int i = 1;
 		        while(i<pos-1){
 		            i++;
 		            current = current->next;
 		            //contonue till we get the position
         		}
+		//deleting the node
         	temp = current->next;
         	current->next = NULL;
 	        temp->next = temp;
