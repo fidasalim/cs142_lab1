@@ -1,2 +1,2 @@
-# cs141_lab1
+# cs142_lab2
 Linked List
